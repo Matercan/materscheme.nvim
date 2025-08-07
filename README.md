@@ -28,7 +28,11 @@ If you would like to change any of the options, you need to edit it in the ``con
 ```lua
 -- Example
 config = function()
-  vim.api.nvim_set_hl(0, '@number', { fg = '#e933e3' })
+  require(materscheme).setup({
+    Normal = { bg = colors.light_blue, fg = colors.fg },
+    NormalFloat = { bg = colors.blue, fg = colors.fg },
+  })
+
   vim.cmd("colorscheme materscheme")
 end,
 ```
@@ -36,7 +40,22 @@ end,
 Default:
 ```lua
 config = function()
-  Comment = { fg = colors.comment, italic = true },
-  Keyword = { fg = colors.keyword, italic = true },
+  require(materscheme).setup({
+      -- standard
+    comment = { fg = colors.comment, italic = true },
+    keyword = { fg = colors.keyword, italic = true },
+    identifier = { fg = colors.identifier },
+    property = { fg = colors.property },
+    variable = { fg = colors.variable },
+    normal = { bg = colors.bg, fg = colors.fg },
+    normalfloat = { bg = colors.bg, fg = colors.fg },
+
+    --treesitter
+    ["@string"] = { fg = colors.string },
+    ["@variable"] = { fg = colors.variable },
+    ["@parameter"] = { fg = colors.parameter },
+  })
+
+  vim.cmd("colorscheme materscheme")
 end,
 ```
