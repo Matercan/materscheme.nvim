@@ -63,7 +63,7 @@ end,
 ```
 
 Options for colors:
-
+```
 blue = "#1f0d88"
 red = "#fc1616"
 purple = "#4e1847"
@@ -83,3 +83,4 @@ white = "#ffffff"
 
 gutter_fg = "#78808f"
 nontext = "#d2d6dc"
+```
