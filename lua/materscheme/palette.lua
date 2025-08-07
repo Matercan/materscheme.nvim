@@ -7,6 +7,7 @@ local function get_colors()
     orange = "#6e380e",
     magneta = "#551154",
     black = "#000000",
+    text = "#fce9ca",
 
     light_green = "#21a40b",
     light_magenta = "#b59efa",
@@ -27,7 +28,7 @@ return {
 
 
   bg         = "#100505",
-  fg         = "#fce9ca",
+  fg         = palette.text,
   cursorline = "#ebc2a8",
   section    = "#ebc2a82",
   linenr     = "#3d0c11",
@@ -42,9 +43,11 @@ return {
   number     = palette.light_magenta,
   boolean    = palette.light_red,
   operator   = palette.orange,
-  variable   = palette.light_red,
+  variable   = palette.text,
+  parameter  = palette.text,
   identifier = palette.light_red,
   property   = palette.light_red,
+
 
   -- UI
   cursor     = palette.white,

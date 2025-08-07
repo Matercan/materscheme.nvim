@@ -11,9 +11,13 @@ M.setup = function()
     Identifier = { fg = colors.identifier },
     Property = { fg = colors.property },
     Variable = { fg = colors.variable },
+    Normal = { bg = colors.bg, fg = colors.fg },
+    NormalFloat = { bg = colors.bg, fg = colors.fg },
 
     --Treesitter
-    ["@string"] = { fg = colors.string }
+    ["@string"] = { fg = colors.string },
+    ["@variable"] = { fg = colors.variable },
+    ["@parameter"] = { fg = colors.parameter },
 
   }
 end
