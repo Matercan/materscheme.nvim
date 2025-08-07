@@ -1,7 +1,8 @@
 # materscheme.nvim
 
 ## Showcase:
-<img width="1860" height="925" alt="image" src="https://github.com/user-attachments/assets/bcb45158-ed0d-4dfd-8210-e3c09210db35" />
+<img width="1871" height="977" alt="image" src="https://github.com/user-attachments/assets/bb91fc04-8cbb-467d-80f7-1c7470e86153" />
+
 
 
 ## Features:
