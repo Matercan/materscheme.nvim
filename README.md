@@ -9,12 +9,16 @@
 
 ## Installation:
 Download with your favourite package manager
+
 ``` { 'Matercan/materscheme.nvim' } -- Lazy ```
+
 ``` use 'Matercan/materscheme.nvim' -- Packer ```
 
 ## Usage:
 Simply use the built-in command ``:colorscheme``
+
 ``` colorscheme matervim ```
+
 ``` vim.cmd("colorscheme materscheme") ```
 
 ## Configuration
