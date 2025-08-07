@@ -1,7 +1,8 @@
 # materscheme.nvim
 
 ## Showcase:
-<img width="1870" height="973" alt="image" src="https://github.com/user-attachments/assets/2dbf450b-65d4-41e8-b2d0-10806d0d97d7" />
+<img width="1860" height="925" alt="image" src="https://github.com/user-attachments/assets/bcb45158-ed0d-4dfd-8210-e3c09210db35" />
+
 
 ## Features:
 - A colorscheme
@@ -59,3 +60,25 @@ config = function()
   vim.cmd("colorscheme materscheme")
 end,
 ```
+
+Options for colors:
+
+blue = "#1f0d88"
+red = "#fc1616"
+purple = "#4e1847"
+green = "#165046"
+orange = "#6e380e"
+magneta = "#551154"
+black = "#000000"
+text = "#fce9ca"
+
+light_green = "#21a40b"
+light_magenta = "#b59efa"
+light_red = "#ffffff"
+light_blue = "#1BD1DE"
+light_orange = "#660808"
+light_purple = "#9B28DE"
+white = "#ffffff"
+
+gutter_fg = "#78808f"
+nontext = "#d2d6dc"
