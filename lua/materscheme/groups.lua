@@ -8,6 +8,9 @@ M.setup = function()
     -- Standard
     Comment = { fg = colors.comment, italic = true },
     Keyword = { fg = colors.keyword, italic = true },
+    Identifier = { fg = colors.identifier },
+    Property = { fg = colors.property },
+    Variable = { fg = colors.variable },
 
     --Treesitter
     ["@string"] = { fg = colors.string }

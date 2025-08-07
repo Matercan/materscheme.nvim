@@ -43,6 +43,8 @@ return {
   boolean    = palette.light_red,
   operator   = palette.orange,
   variable   = palette.light_red,
+  identifier = palette.light_red,
+  property   = palette.light_red,
 
   -- UI
   cursor     = palette.white,
