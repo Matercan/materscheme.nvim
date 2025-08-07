@@ -21,7 +21,7 @@ Simply use the built-in command ``:colorscheme``
 There is no need to call ``setup()`` if you are fine with the default configuration.
 If you would like to change any of the options, you need to edit it in the ``config = function()`` using ``vim.api`` directly
 
-```
+```lua
 -- Example
 config = function()
   vim.api.nvim_set_hl(0, '@number', { fg = '#e933e3' })
@@ -30,7 +30,7 @@ end,
 ```
 
 Default:
-```
+```lua
 config = function()
   Comment = { fg = colors.comment, italic = true },
   Keyword = { fg = colors.keyword, italic = true },
