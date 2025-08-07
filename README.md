@@ -10,16 +10,16 @@
 ## Installation:
 Download with your favourite package manager
 
-``` { 'Matercan/materscheme.nvim' } -- Lazy ```
+```Lua { 'Matercan/materscheme.nvim' } -- Lazy ```
 
-``` use 'Matercan/materscheme.nvim' -- Packer ```
+```Lua use 'Matercan/materscheme.nvim' -- Packer ```
 
 ## Usage:
 Simply use the built-in command ``:colorscheme``
 
-``` colorscheme matervim ```
+```Vim colorscheme matervim ```
 
-``` vim.cmd("colorscheme materscheme") ```
+```Lua vim.cmd("colorscheme materscheme") ```
 
 ## Configuration
 There is no need to call ``setup()`` if you are fine with the default configuration.
