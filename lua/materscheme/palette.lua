@@ -11,7 +11,7 @@ local function get_colors()
 
     light_green = "#21a40b",
     light_magenta = "#b59efa",
-    light_red = "#ffffff",
+    light_red = "#ff0000",
     light_blue = "#1BD1DE",
     light_orange = "#660808",
     light_purple = "#9B28DE",
