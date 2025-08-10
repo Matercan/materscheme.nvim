@@ -44,44 +44,29 @@ Default:
 ```lua
 config = function()
   require(materscheme).setup({
-      -- standard
-    comment = { fg = colors.comment, italic = true },
-    keyword = { fg = colors.keyword, italic = true },
-    identifier = { fg = colors.identifier },
-    property = { fg = colors.property },
-    variable = { fg = colors.variable },
-    normal = { bg = colors.bg, fg = colors.fg },
-    normalfloat = { bg = colors.bg, fg = colors.fg },
+    colors = {
+      blue = "#1f0d88"
+      red = "#fc1616"
+      purple = "#4e1847"
+      green = "#165046"
+      orange = "#6e380e"
+      magneta = "#551154"
+      black = "#000000"
+      text = "#fce9ca"
 
-    --treesitter
-    ["@string"] = { fg = colors.string },
-    ["@variable"] = { fg = colors.variable },
-    ["@parameter"] = { fg = colors.parameter },
+      light_green = "#21a40b"
+      light_magenta = "#b59efa"
+      light_red = "#ffffff"
+      light_blue = "#1BD1DE"
+      light_orange = "#660808"
+      light_purple = "#9B28DE"
+      white = "#ffffff"
+
+      gutter_fg = "#78808f"
+      nontext = "#d2d6dc"
+    }
   })
 
   vim.cmd("colorscheme materscheme")
 end,
-```
-
-Options for colors:
-```
-blue = "#1f0d88"
-red = "#fc1616"
-purple = "#4e1847"
-green = "#165046"
-orange = "#6e380e"
-magneta = "#551154"
-black = "#000000"
-text = "#fce9ca"
-
-light_green = "#21a40b"
-light_magenta = "#b59efa"
-light_red = "#ffffff"
-light_blue = "#1BD1DE"
-light_orange = "#660808"
-light_purple = "#9B28DE"
-white = "#ffffff"
-
-gutter_fg = "#78808f"
-nontext = "#d2d6dc"
 ```
