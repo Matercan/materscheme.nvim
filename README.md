@@ -31,10 +31,7 @@ If you would like to change any of the options, you need to edit it in the ``con
 ```lua
 -- Example
 config = function()
-  require(materscheme).setup({
-    Normal = { bg = colors.light_blue, fg = colors.fg },
-    NormalFloat = { bg = colors.blue, fg = colors.fg },
-  })
+  require(materscheme).setup({})
 
   vim.cmd("colorscheme materscheme")
 end,
